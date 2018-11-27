@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "144429671129",
+    "firebase_url": "https://gipdaanfostier.firebaseio.com",
+    "project_id": "gipdaanfostier",
+    "storage_bucket": "gipdaanfostier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144429671129:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144429671129-t9t5pmdp7s8fr3qbsics3gp42q534too.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8hQQKHL7MFRJbCsKbgt6HouqJLcX8RGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

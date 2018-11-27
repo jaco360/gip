@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/achtergrond">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discover to the unexpected"
+
+                android:textAlignment="center"
+                android:textSize="35dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutEmailPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+             android:paddingLeft="25dp"
+            android:layout_marginTop="60dp">
+
+            <EditText
+                android:id="@+id/fieldEmail"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/textGrijs"/>
+
+            <EditText
+                android:id="@+id/fieldPassword"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/textGrijs"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutEmailPassword"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <Button
+                android:id="@+id/buttonSignIn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in" />
+
+
+            <Button
+                android:id="@+id/buttonSignUp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
